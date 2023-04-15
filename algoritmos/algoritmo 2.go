@@ -10,9 +10,9 @@ func main() {
 	fmt.Print("Digite uma string: ")
 	fmt.Scan(&str)
 	//
-	fmt.Print(vogais(str))
+	fmt.Print(vogais1(str))
 }
-func vogais(str string) int {
+func vogais1(str string) int {
 	vogal := "AEIOUaeiou"
 	count := 0
 	for _, v := range str {
